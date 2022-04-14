@@ -1,0 +1,10 @@
+ORIGIN = 'origin'
+TOKENIZED = 'tokenized'
+LABEL = 'label'
+INDEX = 'index'
+OPEN_ORIGIN_FILE = "Open Origin file"
+OPEN_TOKEN_FILE = "Open Tokenized file"
+OPEN_LABEL_FILE = "Open Label file"
+LABEL_DOMAIN_ROW = 10
+MOVE_NEXT = 'next'
+MOVE_PREV = 'prev'
