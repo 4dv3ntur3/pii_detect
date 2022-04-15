@@ -133,7 +133,6 @@ dmypy.json
 data/
 I_want_PII_NER
 TagEditor/
-*.tsv
 *.csv
 KoBERT-NER
 
