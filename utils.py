@@ -99,6 +99,7 @@ def assert_num_toks(df):
         if (sen_len != tag_len):
             
             print(sen)
+            print(tag)
             print(sen_len)
             print(tag_len)
     
@@ -159,14 +160,15 @@ def main():
                 
 
     # print(label_ids)
-    path = 'C:\\Users\\ejpark\\Downloads\\label_for_edit_완료.tsv'
+    path = 'C:\\Users\\ejpark\\Desktop\\I_want_PII_NER\\res\\AD_METRO_applied.tsv'
     # assert_num_toks(path)
     
-    a = 'a b c'
-    a = a.strip("a""c").strip()
-    print(a)
-    print(len(a))
+    # a = 'a b c'
+    # a = a.strip("a""c").strip()
+    # print(a)
+    # print(len(a))
 
+    assert_num_toks(path)
     
         
 if __name__ == "__main__":

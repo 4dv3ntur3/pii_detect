@@ -22,6 +22,7 @@ preds_list = [['ID_PHONE-I', 'ID_PHONE-I', 'ID_PHONE-I', 'ID_PHONE-I', 'ID_PHONE
 
 # Write to output file
 with open('./sample.txt', "w", encoding="utf-8") as f:
+    
     for words, preds in zip(all_input_tokens, preds_list): # 한 문장 
         
         line = ""
@@ -44,7 +45,7 @@ with open('./sample.txt', "w", encoding="utf-8") as f:
                 
                 pii_word += word
                 
-                # print(pii_word)
+                print(pii_word)
                 
                 # 다음 단어에 #이 포함되어 있다면 이어지는 단어 
                 if '#' in after_word:
